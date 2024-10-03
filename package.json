@@ -1,0 +1,19 @@
+{
+  "name": "articles",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tsx": "^4.19.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "jsdom": "^25.0.1",
+    "zenn-content-css": "^0.1.157",
+    "zenn-embed-elements": "^0.1.157",
+    "zenn-markdown-html": "^0.1.157"
+  }
+}
